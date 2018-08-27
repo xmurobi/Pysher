@@ -1,6 +1,6 @@
 from setuptools import setup
 
-VERSION = "0.6.0b2"
+VERSION = "1.0.0"
 
 requirements = ["websocket-client>0.48"]
 
@@ -14,6 +14,7 @@ setup(
     version=VERSION,
     description="Pusher websocket client for python, based on Erik Kulyk's PythonPusherClient",
     long_description=readme(),
+    long_description_content_type='text/markdown',
     keywords="pusher websocket client",
     author="Erik Kulyk",
     author_email="23okrs20+github@mykolab.com",
@@ -22,7 +23,7 @@ setup(
     install_requires=requirements,
     packages=["pysher"],
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
